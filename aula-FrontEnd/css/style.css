@@ -1,0 +1,11 @@
+.banner {
+display: flex ;
+flex-direction: column;
+box-sizing: border-box;
+padding: 15px;
+margin: 10px;
+width: 420px;
+height: 350px;
+background-color: rgb(171, 190, 176);
+border: 1px solid #ccc;
+}
