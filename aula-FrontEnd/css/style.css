@@ -1,11 +1,71 @@
-.banner {
-display: flex ;
-flex-direction: column;
-box-sizing: border-box;
-padding: 15px;
-margin: 10px;
-width: 420px;
-height: 350px;
-background-color: rgb(171, 190, 176);
-border: 1px solid #ccc;
+body {
+    text-align: left;
+    display: flex ;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 1200px;
+    background-color: rgb(26, 24, 24);
+    border: 2px solid #ccc;
+    margin: 0px auto;
+}
+
+#nome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 1px 1px 20px;
+    max-width: 1200px;
+    background-color: rgb(1, 65, 88);
+}
+.linked {
+    height: 45px;
+    padding: 5px 1px 1px 20px;
+
+}
+.foto {
+    display: flex ;
+    box-sizing: border-box;
+    padding: 1px 30px 15px 20px;
+    max-width: 1200px;
+    background-color: rgb(1, 65, 88); 
+}
+#title {
+    flex-direction: column;
+    text-align:right;
+    font-family:Helvetica;
+    font-size: 30px;
+    color: #7ec4ef;
+}
+#subtitle {
+    font-family:Helvetica;
+    font-size: 17px; 
+    padding: 1px 1px 10px 35px;
+    color: #7ec4ef;
+}
+#description {
+    font-family:Helvetica;
+    font-size: 16px; 
+    padding: 1px 1px 10px 35px;
+    color: #7ec4ef;
+}
+#title-medias {
+    font-family:Helvetica;
+    font-size: 16px; 
+    color: rgb(126, 196, 239);
+}
+#title-nets{
+    font-family:Helvetica;
+    font-size: 22px; 
+    color: rgb(126, 196, 239);
+}
+#linkedin{
+    font-family:Helvetica;
+    font-size: 16px; 
+    color: rgb(255, 255, 255);
+}
+#my-skills{
+    font-family:Helvetica;
+    font-size: 16px; 
+    color: rgb(255, 255, 255); 
 }
