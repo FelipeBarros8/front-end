@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+.background {
+    background: linear-gradient(#a71515c6, rgba(51, 88, 121, 0.8)), url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase ;
+    letter-spacing: 1px;
+}
+
+.cabeçalho-link a:hover {
+    color: #ffd700;
+    transition: 0.3s all;
+}
+
+.logo i {
+    height: 45px;
+    width: 45px;
+    background: #fff;
+    border: none;
+    color: #ee6f57;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    color: #fff;
+    background: #ee6f57;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: #fff;
+}
+
+.container-text {
+    padding: 150px 0 0 130px;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.text h1 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text span {
+    color: #ffd700;
+}
+
+.text p {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.redes-social {
+    margin-top: 15px;
+}
+
+.redes-social a {
+    color: #ee6f57;
+    padding: 12px;
+    margin: 0 8px;
+    transition: color 0.3s;
+}
+
+.redes-social a:hover {
+    color: #ffd700;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #ffd700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #71433a;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .cabeçalho-link {
+        display: none;
+    }
+}
